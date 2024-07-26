@@ -37,6 +37,10 @@ struct ContentView: View {
             .alert("Important message", isPresented: $show) {
                 Button("OK", role: .cancel) { }
             }
+            
+            VStack {
+                Text("Hi")
+            }
         }
     }
 }
